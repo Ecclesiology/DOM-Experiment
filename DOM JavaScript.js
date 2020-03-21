@@ -32,3 +32,8 @@ const meekParagraph = document.createElement("p");
   meekParagraph.classList.add("meekParagraph");
   meekParagraph.textContent = "ME TOO!";
   bigDiv.appendChild(meekParagraph);
+  
+const btn = document.querySelector('#btn');
+  btn.addEventListener('click', () => {
+    alert("Hello World");
+  });
