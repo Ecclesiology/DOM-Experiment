@@ -16,3 +16,19 @@ const blueText = document.createElement("h3");
   blueText.textContent = "I'm a blue h3!";
   blueText.style.color = "blue";
   container.appendChild(blueText);
+  
+const bigDiv = document.createElement("div");
+  bigDiv.classList.add("bigDiv");
+  bigDiv.style.backgroundColor = "pink";
+  bigDiv.style.borderColor = "black";
+  container.appendChild(bigDiv);
+  
+const greatHeader = document.createElement("h1");
+  greatHeader.classList.add("greatHeader");
+  greatHeader.textContent = "I'm in a div!"
+  bigDiv.appendChild(greatHeader);
+  
+const meekParagraph = document.createElement("p");
+  meekParagraph.classList.add("meekParagraph");
+  meekParagraph.textContent = "ME TOO!";
+  bigDiv.appendChild(meekParagraph);
