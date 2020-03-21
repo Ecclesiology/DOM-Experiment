@@ -52,5 +52,5 @@ const btn3 = document.querySelector("#btn3");
   
 const btn4 = document.querySelector("#btn4");
   btn4.addEventListener("click", function (e) {
-      console.log(e);
+      console.log(e.target);
   });
